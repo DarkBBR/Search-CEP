@@ -1,0 +1,94 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(rgb(108, 12, 12), rgb(42, 11, 47));
+}
+
+.title {
+  font-size: 45px;
+  color: #FFF;
+  animation: flipTitle 2s;
+}
+
+@keyframes flipTitle {
+  from {
+    transform: rotateX(90deg);
+  }
+
+  to {
+    transform: rotateX(0deg);
+  }
+}
+
+.containerInput {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 14px;
+  margin: 34px 0;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+.containerInput input {
+  background-color: transparent;
+  border: 0;
+  font-size: 15px;
+  color: #ffffff0b;
+  outline: none;
+  margin-right: 8px;
+}
+
+.buttonSearch {
+  background-color: transparent;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.buttonSearch:hover {
+  transform: scale(1.2);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #05fbd619;
+  box-shadow: 1px 10px 30px;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.main h2 {
+  margin: 16px 0;
+  font-size: 24px;
+  color: white;
+}
+
+.main span {
+  color: #ffffff;
+  margin-bottom: 14px;
+  font-weight: bold;
+}
+
+@media (max-width: 620px) {
+  .title {
+    font-size: 35px;
+  }
+
+  .main h2 {
+    font-size: 20px;
+  }
+
+  .main {
+    width: 80%;
+    min-height: 200px;
+  }
+}
