@@ -1,6 +1,5 @@
 # Site para buscar CEP
 
-![image](https://github.com/DarkBBR/Search-CEP/blob/main/imagem_2023-09-21_164401335.png)
 
 </{Linguagens usadas}>:
 
@@ -11,9 +10,24 @@
 
 ~> https://viacep.com.br
 
+</{Consumo da Api}>: 
+
+# AXIOS 
+
+```js
+import axios from 'axios';
+const api = axios.create({
+    baseURL: 'https://viacep.com.br/ws/'
+});
+export default api;
+```
+
+
 <div>
   <hr></hr>
 </div>
+
+![image](https://github.com/DarkBBR/Search-CEP/blob/main/imagem_2023-09-21_164401335.png)
 
 # React + Vite
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
