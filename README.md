@@ -1,6 +1,6 @@
 # Site para buscar CEP
 
-![image](https://github.com/DarkBBR/Search-CEP/blob/main/title.png)
+![image](https://github.com/DarkBBR/Search-CEP/blob/main/imagem_2023-09-21_164401335.png)
 
 # React + Vite
 
