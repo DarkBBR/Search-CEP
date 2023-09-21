@@ -2,12 +2,12 @@
 
 ![image](https://github.com/DarkBBR/Search-CEP/blob/main/imagem_2023-09-21_164401335.png)
 
-# Linguagens usadas:
+</{Linguagens usadas}>:
 
 ~> JavaScript
 ~> Css
 
-# Api usada: 
+</{Api usada}>: 
 
 ~> https://viacep.com.br
 
